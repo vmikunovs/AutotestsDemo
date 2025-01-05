@@ -14,7 +14,7 @@
 	<name>SpringBasic</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>22</java.version>
 		<selenium.version>4.26.0</selenium.version>
 		<webdrivermanager.version>5.8.0</webdrivermanager.version>
 		<testng.version>7.10.2</testng.version>
