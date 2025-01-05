@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = {"src/test/java/com/ea/SpringBasic/features"},
-        plugin = {"json:target/cucumber.json", "pretty"},
+        plugin = {"json:target/cucumber-report.json", "pretty"},
         glue = "com.ea.SpringBasic.steps"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
